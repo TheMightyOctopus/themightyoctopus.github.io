@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html class="lightblue">
+
+  <head>
+
+    <title>Fancify Shamcify</title>
+    <link rel="stylesheet" href="fancifymytext.css">
+
+  </head>
+
+  <body>
+
+    <h1>Fancify my Text</h1>
+    <form action="" method="POST">
+
+      <fieldset class="fieldsetSmall closeWrap">
+
+        <legend>Text</legend>
+        <textarea id="Text" name="Text" rows="4" cols="30" placeholder="Enter text here..." required></textarea><br>
+
+      </fieldset>
+      <br>
+      <fieldset class="fieldsetSmall">
+
+        <legend>Fancify</legend>
+        <input type="button" id="Smaller" value="Smaller!" onclick="makeSmaller()"> <!-- Cuz why not? -->
+        <input type="button" id="Bigger" value="Bigger!" onclick="makeBigger()"><br><br>
+        <input type="radio" id="FancyShmancy" value="FancyShmancy" name="styling" onclick="makeFancyShmancy()">
+        <label for="FancyShmancy">Fancy Shmancy</label><br>
+        <input type="radio" id="Betty" value="BoringBetty" name="styling" checked onclick="makeBoringBetty()">
+        <label for="Betty">Boring Betty</label><br><br>
+        <input type="button" id="Moo" value="Moo" onclick="mooText()">
+
+      </fieldset>
+
+    </form>
+
+    <!-- Your UI controls go here -->
+
+  </body>
+
+  <script src="fancifymytext.js"></script>
+
+</html>

@@ -1,0 +1,21 @@
+.lightblue {
+
+  background-color: lightblue;
+  color: black;
+
+}
+
+.fieldsetSmall {
+
+    border-color: darkblue;
+    width: 10%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.closeWrap {
+
+    width: 0%;
+
+}
